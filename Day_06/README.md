@@ -1,0 +1,1 @@
+Read offical document for better understanding : https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
