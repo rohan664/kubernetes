@@ -1,0 +1,12 @@
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: images-secrt-demo
+  labels:
+    app: production
+spec:
+  containers:
+    - name: react-application
+      image: rohandesai664/kubernetes_project:v1
+  imagePullSecrets:
+    - name: docker-login
